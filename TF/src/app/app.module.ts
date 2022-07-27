@@ -11,6 +11,9 @@ import { LogoARComponent } from './components/logo-ar/logo-ar.component';
 import { RedesComponent } from './components/redes/redes.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HysComponent } from './components/hys/hys.component';
+import { SyhComponent } from './components/syh/syh.component';
+import { ProyectoComponent } from './components/proyecto/proyecto.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { HysComponent } from './components/hys/hys.component';
     EducacionComponent,
     LogoARComponent,
     RedesComponent,
-    HysComponent
+    HysComponent,
+    SyhComponent,
+    ProyectoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

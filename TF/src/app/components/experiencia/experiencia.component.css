@@ -1,15 +1,42 @@
 .row{
-    padding: 20px;
+    padding: 50px;
+
 }
-div{
-   background-color:  rgb(84, 169, 192);
+section{
+   background-color:  rgb(132, 89, 132);
 }
-#Ex {
+#trabajo1 {
     color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#trabajo2 {
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#trabajo3 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #Exs{
     color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 3%;
+    padding-left: 2%;
 }
-h1, h3{
-    display: inline;
+
+
+
+#racing{
+    width: 54%;
+    margin-left: 30%;
+    margin-bottom: 20%;
 }
+#fram{
+    width: 30%
+}
+#mat{
+   
+}
+

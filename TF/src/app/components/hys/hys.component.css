@@ -1,4 +1,15 @@
 .row{
-    background-color: bisque;
-    padding: 20px;
+    background-color:  rgb(219, 207, 219);
+padding-bottom: 5%;
+}
+
+
+#hard{
+    color: black;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+section{
+    border-style: solid;
+    border-color: black;
 }

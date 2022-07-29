@@ -1,10 +1,8 @@
 .row{
     padding: 50px;
+   
+}
 
-}
-section{
-   background-color:  rgb(132, 89, 132);
-}
 #trabajo1 {
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -26,17 +24,25 @@ section{
     padding-left: 2%;
 }
 
-
-
-#racing{
-    width: 54%;
-    margin-left: 30%;
-    margin-bottom: 20%;
+#lapiz{
+    width: 70%;
 }
-#fram{
-    width: 30%
+#x{
+    width: 29%;
+    color: black;
+    font-weight: bold;
 }
-#mat{
-   
-}
+@media (max-width: 576px){
+    #lapiz{
+        width: 15%;
+    }
+    #x{
+        width: 100%;
+    }
+    .row{
 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,15 +1,14 @@
 .row{
-    background-color:  rgb(219, 207, 219);
-padding-bottom: 5%;
+   /*  background-color:  rgb(219, 207, 219); */
+
+
 }
 
 
 #hard{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
     color: black;
     padding-left: 5%;
     padding-bottom: 2%;
-}
-section{
-    border-style: solid;
-    border-color: black;
 }

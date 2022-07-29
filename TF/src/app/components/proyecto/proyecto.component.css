@@ -1,13 +1,14 @@
 .row{
     padding: 20px;
-    background-color:  rgb(132, 89, 132);
+   /*  background-color:  rgb(132, 89, 132); */
+   
 
 }
 .contenedor{
     width: auto;
 
 }
-.parte1, parte2 {
+.parte1, .parte2 {
     display: inline-block;
     text-align: justify;
 }
@@ -22,11 +23,11 @@
     color: black;
     font-weight: bold;
 }
-h5{
+h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     
 }
 #texto{
@@ -34,6 +35,11 @@ h5{
     color: black;
     font-weight:lighter;
     display: flex;
-    text-align: center;
+    text-align: left;
 
+}
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
 }

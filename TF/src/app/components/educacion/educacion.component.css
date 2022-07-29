@@ -1,13 +1,9 @@
 .row{
 padding-bottom: 5%;
-    
-}
-section{
-    background-color:  rgb(132, 89, 132);
-    border-style: solid;
-    
 
+    
 }
+
 #edu1 {
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -41,4 +37,27 @@ section{
 }
 #AP{
    margin-bottom: 10%;
+}
+
+#lapiz{
+    width: 70%;
+}
+#x{
+    width: 29%;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 576px){
+    #lapiz{
+        width: 10%;
+    }
+    #x{
+        width: 100%;
+    }
+    .row{
+        display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
 }

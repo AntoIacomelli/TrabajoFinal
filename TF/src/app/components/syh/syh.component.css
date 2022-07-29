@@ -1,12 +1,15 @@
 .row{
-   background-color:  rgb(219, 207, 219);
-   padding-bottom: 5%;
+  /*  background-color:  rgb(219, 207, 219); */
+
+}
 
    
-}
+
 
 
     #soft{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
         color: black;
         padding-left: 5%;
         padding-bottom: 2%;

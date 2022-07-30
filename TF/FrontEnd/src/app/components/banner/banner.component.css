@@ -1,0 +1,23 @@
+#botonBanner{
+margin-top: -107%;
+margin-left: 34%;
+}
+#botonFoto{
+    margin-left: 34%;
+    
+}
+#lapiz9{
+width: 70%;
+}
+
+
+@media (max-width: 575px){
+    #botonFoto{
+        margin-left: 41%;
+        
+    } 
+    #botonBanner{
+        margin-top: -105%;
+        margin-left: 86%;
+        }
+}

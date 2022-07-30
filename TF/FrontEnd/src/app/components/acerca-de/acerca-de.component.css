@@ -1,0 +1,160 @@
+.row{
+   padding-top: 5%;
+}
+
+#perfil{
+   width: 80%;
+   margin-left: 15%;
+   border-radius: 50%;
+   margin-top: -60%;
+   box-shadow: 2px 2px 2px black;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;  
+}
+
+h2{
+    text-align: left;
+    top: 7%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+#botonesAcerca1, #botonesAcerca{
+    text-align: right;
+    margin-right: 4.5%;
+    margin-top: -7%;
+}
+
+#acerca{
+    justify-content: space-between;
+}
+
+h6{
+    padding-top: 5%;
+}
+
+#lapiz8, #lapiz7{
+    width: 70%;
+}
+
+#x1{
+    
+    color: black;
+    font-weight: bold;
+}
+
+#botonesAcerca2 {
+   
+    margin-right: 5%;
+    border-radius: 10%;
+   
+}
+
+#acerca{
+    
+margin-top: 4%;
+}
+
+
+h5{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+ }
+
+
+h6{
+    text-align: justify;
+    text-align: left;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+@media (max-width: 575px){
+    #perfil{
+        width: 40%;
+        border-radius: 50%;
+        margin-top: -50%;
+        margin-left: -2%;
+
+    }
+    #datos{
+        
+        margin-bottom: 100%;
+ 
+    }
+
+    #botonesAcerca1{
+        width: 5%;
+        margin-left: 86%;
+        border-radius: 10%;
+        margin-top: -50%;
+    }
+    
+    #botonesAcerca2{
+        width: 5%;
+        margin-left: 86%;
+        border-radius: 10%;
+        margin-top: -25%;
+    }
+    #botonesAcerca{
+        width: 102%;
+        padding-left: 87%;
+        border-radius: 10%;
+        margin-top: -120%;
+    }
+    h6 {
+        padding-top: 10%;
+    }
+    #x1{
+    
+        color: black;
+        font-weight: bold;
+        
+    }
+    #lapiz8, #lapiz7{
+        width: 70%;
+         
+    }
+    #acerca{
+      padding-top: -50%;
+      
+    }
+    h2{
+        padding-top: 13%;
+    }
+    
+  
+   
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

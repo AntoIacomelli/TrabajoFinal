@@ -1,48 +1,64 @@
 .row{
-    padding: 50px;
-   
+padding-bottom: 5%;
+
+    
 }
 
-#trabajo1 {
+#edu1 {
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-#trabajo2 {
-    color:black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#edu2 {
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#trabajo3 {
+#edu3 {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#Exs{
+#Educ{
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    padding-bottom: 5px;
-    padding-top: 3%;
+    padding-bottom: 3%;
     padding-left: 2%;
+
 }
 
-#lapiz{
+
+
+#RC{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+#uba{
+    width: 10%
+}
+#AP{
+   margin-bottom: 10%;
+}
+
+#lapiz1, #lapiz2, #lapiz3{
     width: 70%;
 }
-#x{
-    width: 29%;
+#x2, #x3, #x4{
+   
     color: black;
     font-weight: bold;
 }
+
 @media (max-width: 576px){
-    #lapiz{
-        width: 15%;
+    #lapiz1, #lapiz2, #lapiz3{
+        width: 8%;
     }
-    #x{
+    #x2, #x3, #x4{
         width: 100%;
     }
     .row{
-
         display: flex;
-        flex-direction: column;
-        text-align: center;
+    flex-direction: column;
+    text-align: center;
     }
+    
 }
